@@ -1,0 +1,28 @@
+{
+  "name": "mt-capacitor",
+  "version": "1.0.0",
+  "description": "Massan Mobile App Capacitor",
+  "type": "module",
+  "keywords": [
+    "capacitor",
+    "mobile",
+    "mt"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/camera": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/splash-screen": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "vite": "^5.4.2"
+  },
+  "author": "Massan258",
+  "license": "ISC"
+}

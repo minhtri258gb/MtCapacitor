@@ -1,0 +1,10 @@
+{
+  "appId": "com.massan258.capacitor",
+  "appName": "MtCapacitor",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
