@@ -18,7 +18,28 @@
 
   </head>
   <body>
-    <capacitor-welcome />
-    <script src="./js/capacitor-welcome.js" type="module"></script>
+    <!-- <capacitor-welcome /> -->
+    <!-- <script src="./js/capacitor-welcome.js" type="module"></script> -->
+
+
+    <div class="flex flex-col min-h-screen">
+      <div class="app-navbar-notch"></div>
+      <div style="height: 54px">
+        <custom-navbar></custom-navbar>
+      </div>
+
+      <div id="content" class="flex-1"></div>
+
+      <div class="tab-bar">
+        <nav class="flex" aria-label="Tabs">
+          <a href="/" data-navigo class="tab">Home</a>
+          <a href="/posts" data-navigo class="tab">Posts</a>
+          <a href="/settings" data-navigo class="tab">Settings</a>
+        </nav>
+      </div>
+    </div>
+
+    <script src="./js/navbar.js" type="module"></script>
+    <script src="./js/router.js" type="module"></script>
   </body>
 </html>

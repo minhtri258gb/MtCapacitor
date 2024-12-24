@@ -1,0 +1,10 @@
+/* Fix for iOS area above our custom nav bar */
+.app-navbar-notch {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  height: env(safe-area-inset-top);
+  @apply bg-blue-600;
+}

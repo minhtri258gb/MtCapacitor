@@ -60,6 +60,9 @@ window.customElements.define(
         <h1>Capacitor</h1>
       </capacitor-welcome-titlebar>
       <main>
+
+        <a href="/examples/onsen-ui/index.html">Go Onsen UI</a>
+
         <p>
           Capacitor makes it easy to build powerful apps for the app stores, mobile web (Progressive Web Apps), and desktop, all
           with a single code base.
