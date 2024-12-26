@@ -10,7 +10,14 @@ router
   .on("/", (match) => {
     body.dispatchEvent(new CustomEvent("page-changed", { detail: { page: "Home", tab: 0 } }));
     updateTabbar(0);
-    render(`<div class="page"><h1>Home</h1></div>`);
+    render(`
+      <div class="page">
+        <h1>Home</h1>
+        <ion-button>Default</ion-button>
+        <ion-button disabled="true">Disabled</ion-button>
+        <simple-greeting />
+      </div>
+    `);
   })
   .on("/posts", (match) => {
     body.dispatchEvent(new CustomEvent("page-changed", { detail: { page: "Posts", tab: 1 } }));
