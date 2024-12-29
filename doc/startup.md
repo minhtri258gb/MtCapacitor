@@ -1,12 +1,9 @@
 
 # Init
-> npm init @capacitor/app
-> npm i
-> npm i @capacitor/android
-> npm i lit
+> npm install
 > npx cap add android
-> npx cap sync
 > npx vite build
+> npx cap sync
 > npx vite preview
 > npx tailwindcss init
 

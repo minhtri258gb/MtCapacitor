@@ -7,4 +7,7 @@ export default defineConfig({
     minify: false,
     emptyOutDir: true,
   },
+  optimizeDeps:{
+    exclude: ['leaflet']
+  },
 });
